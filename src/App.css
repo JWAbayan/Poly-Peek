@@ -1,1 +1,14 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("./assets/fonts/Quicksand-VariableFont_wght.ttf");
+}
+
+@theme{
+  --font-display: "Quicksand", "sans-serif";
+  --color-marinblue: #5465FF;
+  --color-black: #111 ;
+  --color-darkgray: #323232 ;
+  --color-lightgray: #9D9D9D;
+}
